@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <title>Demande d'inscription</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Formulaire de demande ONPC" name="description" />
-    <meta content="ONPC" name="author" />
+    <meta content="Formulaire de demande JANDOUBA" name="description" />
+    <meta content="fedi" name="author" />
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
 
     <script src="{{ asset('assets/js/layout.js') }}"></script>
@@ -34,10 +34,10 @@
                         <div class="text-center mt-sm-5 mb-4 text-white-50">
                             <div>
                                 <a href="#" class="d-inline-block auth-logo">
-                                    <img src="{{ asset('assets/images/logo-light.png') }}" alt="" height="20">
+                                    <img src="{{ asset('assets/images/logo-light.png') }}" alt="" height="50">
                                 </a>
                             </div>
-                            <p class="mt-3 fs-15 fw-medium">Formulaire de demande ONPC</p>
+                            <p class="mt-3 fs-15 fw-medium">Formulaire de demande JANDOUBA</p>
                         </div>
                     </div>
                 </div>
@@ -123,6 +123,14 @@
                         <div class="mt-4 text-center">
                             <p class="mb-0">Vous avez déjà fait une demande ? <a href="{{ route('request.status.form') }}" class="fw-semibold text-primary text-decoration-underline">Consultez le statut</a>                            </p>
                         </div>
+                        <div class="mt-3 text-center">
+                            <p class="mb-0">
+                                Vous avez déjà un compte ?
+                                <a href="{{ route('login') }}" class="fw-semibold text-primary text-decoration-underline">
+                                    Connectez-vous
+                                </a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,7 +141,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <p class="mb-0 text-muted">&copy; <script>document.write(new Date().getFullYear())</script> ONPC. Tous droits réservés.</p>
+                            <p class="mb-0 text-muted">&copy; <script>document.write(new Date().getFullYear())</script> JANDOUBA. Tous droits réservés.</p>
                         </div>
                     </div>
                 </div>

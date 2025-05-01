@@ -41,10 +41,10 @@
                         <div class="text-center mt-sm-5 mb-4 text-white-50">
                             <div>
                                 <a href="#" class="d-inline-block auth-logo">
-                                    <img src="{{ asset('assets/images/logo-light.png') }}" alt="logo" height="20">
+                                    <img src="{{ asset('assets/images/logo-light.png') }}" alt="logo" height="50">
                                 </a>
                             </div>
-                            <p class="mt-3 fs-15 fw-medium">Connexion à l’espace ONPC</p>
+                            <p class="mt-3 fs-15 fw-medium">Connexion à l’espace Jandouba</p>
                         </div>
                     </div>
                 </div>
@@ -95,17 +95,7 @@
                                             <button class="btn btn-success w-100" type="submit">Se connecter</button>
                                         </div>
 
-                                        <div class="mt-4 text-center">
-                                            <div class="signin-other-title">
-                                                <h5 class="fs-13 mb-4 title text-muted">Ou se connecter avec</h5>
-                                            </div>
-                                            <div>
-                                                <button type="button" class="btn btn-primary btn-icon waves-effect waves-light"><i class="ri-facebook-fill fs-16"></i></button>
-                                                <button type="button" class="btn btn-danger btn-icon waves-effect waves-light"><i class="ri-google-fill fs-16"></i></button>
-                                                <button type="button" class="btn btn-dark btn-icon waves-effect waves-light"><i class="ri-github-fill fs-16"></i></button>
-                                                <button type="button" class="btn btn-info btn-icon waves-effect waves-light"><i class="ri-twitter-fill fs-16"></i></button>
-                                            </div>
-                                        </div>
+                                        
                                     </form>
                                 </div>
                             </div>
@@ -125,7 +115,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <p class="mb-0 text-muted">&copy;
-                            <script>document.write(new Date().getFullYear())</script> ONPC. Tous droits réservés.
+                            <script>document.write(new Date().getFullYear())</script> JANDOUBA. Tous droits réservés.
                         </p>
                     </div>
                 </div>

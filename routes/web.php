@@ -6,6 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\EtabDashboardController;
 use App\Http\Controllers\RegistrationCompletionController;
 use App\Http\Controllers\FormationController;
+use App\Models\Etablissement;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,13 @@ use App\Http\Controllers\FormationController;
 |--------------------------------------------------------------------------
 */
 
-// Page d'accueil
-Route::get('/', fn() => view('welcome'));
+Route::get('/', function () {
+     // Récupère tous les établissements
+     $etablissements = Etablissement::all();
+ 
+     // Passe-les à la vue welcome
+     return view('welcome', compact('etablissements'));
+ });
 
 // 🔹 Demande d’inscription
 Route::get('/request', [RequestController::class, 'create']);
